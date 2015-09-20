@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		497466A81BAE07EE006F805A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497466A71BAE07EE006F805A /* AppDelegate.swift */; };
-		497466AA1BAE07EE006F805A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497466A91BAE07EE006F805A /* ViewController.swift */; };
 		497466AD1BAE07EE006F805A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497466AB1BAE07EE006F805A /* Main.storyboard */; };
 		497466AF1BAE07EE006F805A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497466AE1BAE07EE006F805A /* Images.xcassets */; };
 		497466B21BAE07EE006F805A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497466B01BAE07EE006F805A /* LaunchScreen.xib */; };
 		497466BE1BAE07EE006F805A /* SmileyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497466BD1BAE07EE006F805A /* SmileyTests.swift */; };
+		497466C81BAE09BD006F805A /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497466C71BAE09BD006F805A /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		497466A21BAE07EE006F805A /* Smiley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smiley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497466A61BAE07EE006F805A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497466A71BAE07EE006F805A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		497466A91BAE07EE006F805A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		497466AC1BAE07EE006F805A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		497466AE1BAE07EE006F805A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		497466B11BAE07EE006F805A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		497466B71BAE07EE006F805A /* SmileyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497466BC1BAE07EE006F805A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		497466BD1BAE07EE006F805A /* SmileyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileyTests.swift; sourceTree = "<group>"; };
+		497466C71BAE09BD006F805A /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				497466A71BAE07EE006F805A /* AppDelegate.swift */,
-				497466A91BAE07EE006F805A /* ViewController.swift */,
+				497466C71BAE09BD006F805A /* CanvasViewController.swift */,
 				497466AB1BAE07EE006F805A /* Main.storyboard */,
 				497466AE1BAE07EE006F805A /* Images.xcassets */,
 				497466B01BAE07EE006F805A /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				497466AA1BAE07EE006F805A /* ViewController.swift in Sources */,
+				497466C81BAE09BD006F805A /* CanvasViewController.swift in Sources */,
 				497466A81BAE07EE006F805A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
